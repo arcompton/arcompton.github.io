@@ -1,0 +1,50 @@
+body{
+    background-color: black
+}
+.menu{
+    background-color: #633956;
+    height: 15vh;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.widget_community{
+    width: 40vw;
+}
+.reccomended_channels{
+    width: 35vw;
+    height: 65vh;
+    background-color: #412446;
+    margin-right: .5vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+.showing{
+    background-color: #D65ACE;
+    height: 7.5vh;
+    width: 30vw;
+    margin-right: .5vw;
+}
+.content{
+
+}
+.categories{
+    width: 50vw;
+    height: 15vh;
+    background-color: #5B4158;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.table{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.list_items{
+    width: 33vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: #C574CE;
+    height: 50vh; 
+}
