@@ -1,0 +1,75 @@
+body{
+    background-color: #B092BC;
+    padding: 0;
+    margin: 0;
+}
+.search_bar{ 
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    width: 100vw;
+    height: 2vw;
+    background-color: #B24386;
+    margin: auto;
+}
+.header_image{
+    top: 5vh;
+    width: 100vw;
+    height: 30vh;
+    background-color: #BB69B0;
+}
+.bottom {
+    top: 35vh;
+    width: 100vw;
+    height: 5vh;
+    background-color: #B6E982;
+}
+.icon_image {
+    width: 20vw;
+    height: 20vh;
+    background-color:#612B51;
+    margin-left: 10%;
+}
+
+.main_container {
+    display: grid; 
+    grid-template-columns: 20vw 40vw 20vw; 
+    margin-left: 10vw; 
+    margin-right: 10vw; 
+    margin-top: 5vh; 
+}
+
+.profile_statistics{
+    width: 20vw;
+    height: 50vh;
+    background-color: #8B6F84;
+}
+.people_to_follow{
+    width: 20vw;
+    height: 40vh;
+    background-color: #E37094;
+}
+.trends_for_you{
+    width: 20vw;
+    height: 25vh;
+    background-color: #AB4A84;
+    margin-top: 3vh;
+}
+.main {
+    width: 38vw; 
+    margin-left: 1vw; 
+    margin-right: 1vw; 
+}
+
+.tweet_body {
+    width: 38vw;
+    background-color: #40323E;
+
+}
+.tweet {
+    background-color: #A22956;
+    width: 30vw;
+    height: 20vh;
+    margin-left: 19%;
+    margin-bottom: 10vh; 
+}
