@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    width: 100vw;
+    height: 3vw;
+    background-color: #ECCFC3;
+    margin: auto;
+
+}
+.content_layout{
+    display: grid;
+    grid-template-columns: 10vw 90vw;
+}
+.side_bar{
+    background-color: #E49AB0;
+}
+
+.category{
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.video_container{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%; 
+    margin-top: 1vw; 
+    margin-bottom: 1vw; 
+}
+
+.video {
+    background-color: #E49AB0; 
+    height: 20vh; 
+    margin-left: .5vw; 
+    margin-right: .5vw; 
+    margin-top: 2vw; 
+}
+.video_description {
+    background-color: #904C77;
+    margin-top: 12vh; 
+    height: 8vh; 
+    bottom: 0; 
+}
+.video_title {
+    background-color: #BFD1E5;
+    height: 4vh;
+    width: 25vw;
+}
+
